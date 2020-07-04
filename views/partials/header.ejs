@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<title>Banco Perú</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Banco Perú" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+    </script>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "1a3f89ce-6c18-4f7c-912f-b1b692dd7fe3", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "9e427557-7e28-4ba5-9777-aaadaf030f1f", // The ID of your service instance.
+            onLoad: function(instance) { instance.updateLocale('es').then(function() {
+				instance.render();
+			}); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+    </script>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="/public/css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="/public/css/style.css" rel='stylesheet' type='text/css' />
+	<!-- pop up box -->
+	<link href="/public/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- font-awesome icons -->
+	<link href="/public/css/fontawesome-all.min.css" rel="stylesheet">
+	<!-- //Custom Theme files -->
+    <!-- online fonts -->
+	<!-- titles -->
+	
+</head>
+
+<body>
+	
+	<!-- header -->
+	<header>
+	<div class="top">
+			<div class="container">
+				<div class="t-op row">
+					<div class="col-sm-6 top-middle">
+						<ul>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-sm-6 top-left">
+						<ul>
+							<li><i class="fas fa-phone"></i> +021 365 777</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<h1>
+					<a class="navbar-brand text-capitalize" href="/">
+						Banco Perú
+					</a>
+				</h1>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				    aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav text-center  ml-lg-auto">
+						<li class="nav-item active  mr-3">
+							<a class="nav-link" href="/">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item  mr-3">
+							<a class="nav-link" href="/productos">Productos</a>
+						</li>
+						<li class="nav-item  mr-3">
+							<a class="nav-link" href="services.html">Promociones</a>
+						</li>
+						<li class="nav-item mr-3">
+							<a class="nav-link" href="gallery.html">Canales Digitales</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- //header -->

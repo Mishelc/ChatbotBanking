@@ -1,0 +1,156 @@
+<!--footer-->
+<footer>
+    <div class="container py-md-4 mt-md-3">
+        <div class="row footer-top-w3layouts-agile py-5">
+            <div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+                <div class="footer-title">
+                    <h3>Acerca de Banco Perú</h3>
+                </div>
+                <div class="footer-text">
+                    <p>Somos la empresa peruana que brinda la mejor experiencia a los clientes. Simple, cercana y oportuna.</p>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+                <div class="footer-title">
+                    <h3>Ayuda y contacto</h3>
+                </div>
+                <div class="footer-office-hour">
+                    <ul>
+                        <li>Puntos de atención</li>
+                        <li>Canales digitales</li>
+                        <li>Centros de Ayuda</li>
+                        <li>Preguntas Frecuentes</li>
+                        <li><a href="/seguridad">Protégete de los fraudes</a></li>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+                <div class="footer-title">
+                    <h3>Otros Servicios</h3>
+                </div>
+                <div class="footer-office-hour">
+                    <ul>
+                        <li>Trabaja con nosotros</li>
+                        <li>Actualiza tus datos</li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 footer-grid">
+                <div class="footer-title">
+                    <h3>Contáctanos</h3>
+                </div>
+                <div class="footer-office-hour">
+                    <ul>
+                        <li>De lunes a sábado de 9:00 a.m. a 4:00 p.m.</li>
+                    </ul>
+                    <ul>
+                        <li class="hd">Lima: </li>
+                        <li>312 5000</li>
+                        <li class="hd">Provincias:</li>
+                        <li> 0 801 00802</li>
+                        <li class="hd">Correo:
+                            <a href="mailto:consultas@bancoperu.com.pe">consultas@bancoperu.com.pe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+<!---->
+<div class="copyright py-3">
+    <div class="container">
+        <div class="copyrighttop">
+            <ul>
+                <li>
+                    <h4>Síguenos en:</h4>
+                </li>
+                <li>
+                    <a class="facebook" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="facebook" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="facebook" href="#">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="copyrightbottom">
+            <p>© 2020 Banco Perú. Todos los derechos reservados</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- js-->
+<script src="/public/js/jquery-2.2.3.min.js"></script>
+<!-- js-->
+<!-- Banner Responsiveslides -->
+<script src="/public/js/responsiveslides.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+        // Slideshow 4
+        $("#slider3").responsiveSlides({
+            auto: true,
+            pager: true,
+            nav: false,
+            speed: 500,
+            namespace: "callbacks",
+            before: function () {
+                $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+                $('.events').append("<li>after event fired.</li>");
+            }
+        });
+
+    });
+</script>
+<!-- // Banner Responsiveslides -->
+<!-- stats -->
+<script src="/public/js/jquery.waypoints.min.js"></script>
+<script src="/public/js/jquery.countup.js"></script>
+    <script>
+        $('.counter').countUp();
+    </script>
+<!-- //stats -->
+<!--pop-up-box -->
+<script src="/public/js/jquery.magnific-popup.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.popup-with-zoom-anim').magnificPopup({
+            type: 'inline',
+            fixedContentPos: false,
+            fixedBgPos: true,
+            overflowY: 'auto',
+            closeBtnInside: true,
+            preloader: false,
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-zoom-in'
+        });
+    });
+</script>
+<!-- //pop-up-box -->
+<!-- Bootstrap Core JavaScript -->
+<script src="/public/js/bootstrap.js ">
+</script>
+<!-- //Bootstrap Core JavaScript -->
+
+</body>
+</html>

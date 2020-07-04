@@ -1,0 +1,6 @@
+applications:
+    - name: bancoperu
+      command: node app.js
+      random-route: true
+      memory: 128M
+    
