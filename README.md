@@ -55,4 +55,4 @@ Run npm install then npm start. Navigate to http://localhost:3000/.
 ### 6. Use the web app
 
 The web app presents a customer service chatbot. Interact with the chatbot by pressing the buttons when prompted or use the `Escriba algo...` box.
-![demo](doc/images/demo.gif)
+![demo](doc/images/demo.mp4)
