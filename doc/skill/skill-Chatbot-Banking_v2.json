@@ -1,0 +1,1190 @@
+{
+  "intents": [
+    {
+      "intent": "despedida",
+      "examples": [
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Adios"
+        },
+        {
+          "text": "Hasta pronto"
+        },
+        {
+          "text": "Chau"
+        },
+        {
+          "text": "Hasta luego"
+        },
+        {
+          "text": "Nos vemos"
+        },
+        {
+          "text": "Byeee"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "acceso_online",
+      "examples": [
+        {
+          "text": "No puedo usar los servicios bancarios desde mi smartphone o laptop"
+        },
+        {
+          "text": "No puedo usar el app"
+        },
+        {
+          "text": "¿Qué debo hacer si no puedo acceder a los servicios bancarios desde mi celular o computadora?"
+        },
+        {
+          "text": "No puedo acceder a los servicios del banco desde mi celular o computadora."
+        },
+        {
+          "text": "No puedo entrar a los servicios del banco desde mi computadora o teléfono"
+        },
+        {
+          "text": "No pueod entrar a los servicios"
+        },
+        {
+          "text": "No puedo usar la pagina"
+        },
+        {
+          "text": "No puedo abrir las aplicaciones del banco desde mi celular."
+        },
+        {
+          "text": "No puedo usar la pagina web"
+        }
+      ],
+      "description": "Soporte al usuario si es que no tiene acceso a los servicios que ofrece la entidad bancaria"
+    },
+    {
+      "intent": "deposito_sueldo",
+      "examples": [
+        {
+          "text": "No he recibido mi sueldo"
+        },
+        {
+          "text": "¿Qué acciones debo tomar si no he recibido mi sueldo en mi cuenta de banco?"
+        },
+        {
+          "text": "He tenido un problema con el pago de mi sueldo"
+        },
+        {
+          "text": "No he recibido el depósito de mi sueldo"
+        },
+        {
+          "text": "Depósito_de _sueldo"
+        },
+        {
+          "text": "¿Qué debo hacer si no he recibido el depósito correspondiente a mi sueldo?"
+        }
+      ],
+      "description": "Información de que medidas tomar dada la ausencia del depósito que corresponde al sueldo del usuario en su cuenta bancaria."
+    },
+    {
+      "intent": "saludos",
+      "examples": [
+        {
+          "text": "Buenos días"
+        },
+        {
+          "text": "¿Que tal?"
+        },
+        {
+          "text": "Buenas"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "transferencia_interbancaria",
+      "examples": [
+        {
+          "text": "Quiero hacer una transferencia interbancaria"
+        },
+        {
+          "text": "Quiero hacer una transferencia de mi cuenta a otra de un banco diferente"
+        },
+        {
+          "text": "Transferencia_interbancaria"
+        },
+        {
+          "text": "cimi hago una transferencia interbancaria"
+        },
+        {
+          "text": "¿Cómo realizo una transferencia interbancaria?"
+        },
+        {
+          "text": "¿Cómo puedo transferir dínero de mi cuenta bancaria a otra de un banco distinto?"
+        },
+        {
+          "text": "¿Qué debo hacer para realizar una transferencia interbancaria?"
+        }
+      ],
+      "description": "Información de como realizar una transacción interbancaria"
+    },
+    {
+      "intent": "penalidad_deposito",
+      "examples": [
+        {
+          "text": "¿Seré penalizado si retiro dinero de un depósito de plazo fijo?"
+        },
+        {
+          "text": "¿Podré retirar dinero en un depósito a plazo fijo sin ser penalizado?"
+        },
+        {
+          "text": "¿Me castigarán si retiro dinero de un depósito de plazo fijo?"
+        },
+        {
+          "text": "¿Será posible retirar fondos de un depósito de plazo fijo sin ser penalizado?"
+        },
+        {
+          "text": "¿Si por circunstancias relacionadas al Covid-19 tengo que retirar dinero de un depósito a plazo fijo, seré penalizado?"
+        }
+      ],
+      "description": "Información con respecto a la penalidad que se aplicaría en caso se retire un depósito de plazo fijo."
+    },
+    {
+      "intent": "retraso_de_prestamo",
+      "examples": [
+        {
+          "text": "No tengo dinero para pagar mi préstamo, porque ya no trabajo"
+        },
+        {
+          "text": "Al no poder trabajar, no tengo recursos para pagar mi préstamo"
+        },
+        {
+          "text": "No puedo pagar mi préstamo, porque ya no tengo trabajo"
+        },
+        {
+          "text": "¿Seré penalizado por el banco si no logro pagar un préstamo?"
+        },
+        {
+          "text": "Prestamos"
+        },
+        {
+          "text": "¿Recibiré cargos por mora si es que me retraso con los pagos de un prestamo debido a no poder trabajar durante el tiempo de la pandemia del Covid-19?"
+        }
+      ],
+      "description": "Información acerca de las medidas con respecto a retrasos en el pago de prestamos dadas las circunstancias del Covid"
+    },
+    {
+      "intent": "efectivo",
+      "examples": [
+        {
+          "text": "¿Tendrá el banco suficientes reservas de efectivo durante la pandemia?"
+        },
+        {
+          "text": "Reservas_de_efectivo"
+        },
+        {
+          "text": "¿Serán suficientes las reservas de efectivo durante la pandemia?"
+        },
+        {
+          "text": "¿Se agotarán las reservas de efectivo del banco durante la pandemia?"
+        },
+        {
+          "text": "¿Serán suficientes las reservas de efectivo del banco durante la pandemia?"
+        },
+        {
+          "text": "¿Las reservas de efectivo del banco se verán afectadas por la pandemia del Covid-19?"
+        }
+      ],
+      "description": "Informa al usuario acerca de las reservas de efectivo que el banco posee"
+    },
+    {
+      "intent": "ubicacion_cajeros",
+      "examples": [
+        {
+          "text": "¿Cuántos cajeros están cerca a mi?"
+        },
+        {
+          "text": "¿Dónde hay un cajero cerca?"
+        },
+        {
+          "text": "¿Hay cajeros automáticos cerca a mi vivienda?"
+        },
+        {
+          "text": "¿Dónde se encuentran los cajeros automáticos más cercanos a mi?"
+        },
+        {
+          "text": "Donde esta el cajero más cercano"
+        },
+        {
+          "text": "Ubicación_cajeros"
+        }
+      ],
+      "description": "Mapa de cajeros automáticos"
+    },
+    {
+      "intent": "seguro_de_depositos",
+      "examples": [
+        {
+          "text": "¿Si es que el banco cierra o reduce sus operaciones, mi dinero estará asegurado?"
+        },
+        {
+          "text": "¿Mi dinero está asegurado?"
+        },
+        {
+          "text": "¿Está mi cuenta de ahorros asegurada?"
+        },
+        {
+          "text": "Fondo_de_ahorros"
+        },
+        {
+          "text": "¿Al limitar las operaciones de los bancos debido a la pandemia del Covid-19, mi dinero se mantendrá asegurado?"
+        },
+        {
+          "text": "¿Cuánto es el monto de mis ahorros protegido por el Fondo de seguros de Depósitos?"
+        }
+      ],
+      "description": "Información relacionada con respecto a la protección de los ahorros de los usuarios"
+    },
+    {
+      "intent": "transacciones_sin_billetes",
+      "examples": [
+        {
+          "text": "¿Me puedo contagiar al manipular billetes y monedas?"
+        },
+        {
+          "text": "¿Es posible contagiarme del Covid-19 mediante el contacto con billetes y monedas?"
+        },
+        {
+          "text": "¿Qué alternativas tengo para evitar el contacto con billetes y monedas al realizar transacciones?"
+        },
+        {
+          "text": "¿Son las monedas y billetes un medio de contagio?"
+        },
+        {
+          "text": "¿Cómo puedo evitar el uso de billetes y monedas?"
+        }
+      ],
+      "description": "Recomienda al usuario de los metodos de transacción dadas las circunstancias actuales causadas por la pandemia del Covid-19"
+    },
+    {
+      "intent": "mas_info",
+      "examples": [
+        {
+          "text": "¿Donde puedo resolver mi duda?"
+        },
+        {
+          "text": "¿Donde puedo obtener más información?"
+        },
+        {
+          "text": "¿Donde encuentro más información?"
+        },
+        {
+          "text": "¿Donde hay más información?"
+        },
+        {
+          "text": "¿Donde puedo buscar más información?"
+        }
+      ],
+      "description": "Guia de como obtener más información"
+    },
+    {
+      "intent": "cobranza_cheques",
+      "examples": [
+        {
+          "text": "¿Puede un banco del que no soy cliente cobrar mis cheques?"
+        },
+        {
+          "text": "¿Podrá un banco cobrar mis cheques, incluso si no soy cliente de ese banco?"
+        },
+        {
+          "text": "¿Podré cobrar cheques en un banco del que no soy cliente?"
+        },
+        {
+          "text": "¿Puedo cobrar mis cheques en un banco del que no soy cliente?"
+        },
+        {
+          "text": "Cobranza_de_cheques"
+        },
+        {
+          "text": "¿Cómo puedo cobrar cheques un banco en el que no soy cliente?"
+        }
+      ],
+      "description": "Información de como cobrar cheques, si es que el usuario necesita acudir a un banco del cual no es cliente"
+    },
+    {
+      "intent": "agradecimiento",
+      "examples": [
+        {
+          "text": "Perfecto, mil gracias"
+        },
+        {
+          "text": "Te pasaste"
+        },
+        {
+          "text": "Muchisimas gracias"
+        },
+        {
+          "text": "graaciaaas"
+        },
+        {
+          "text": "Gracias"
+        },
+        {
+          "text": "Muchas gracias"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "transaccion_bancaria",
+      "examples": [
+        {
+          "text": "¿Cómo realizo una transacción online?"
+        },
+        {
+          "text": "¿Qué debo hacer para hacer una transacción mediante mi computadora o Smartphone?"
+        },
+        {
+          "text": "Transacciones_bancarias"
+        },
+        {
+          "text": "¿Cuáles son los pasos para realizar una transacción online?"
+        },
+        {
+          "text": "¿Cómo hago una transacción online?"
+        },
+        {
+          "text": "¿Cómo se realiza una transacción online?"
+        }
+      ],
+      "description": "Información para que el usuario sepa como realizar transacciones desde su computadora o smartphone"
+    },
+    {
+      "intent": "capacidades_generales",
+      "examples": [
+        {
+          "text": "¿Puedo tener una lista de temas disponibles, con los que puedes ayudarme?"
+        },
+        {
+          "text": "Capacidades_Generales"
+        },
+        {
+          "text": "temas disponibles"
+        },
+        {
+          "text": "Tengo algunos problemas y quiero algo de información sobre cómo conseguir ayuda."
+        },
+        {
+          "text": "que sabes hacer?"
+        },
+        {
+          "text": "Tengo algunas preguntas y necesito ayuda, ¿puedo recibir ayuda?"
+        },
+        {
+          "text": "¿qué puede hacer?"
+        },
+        {
+          "text": "¿Puedes darme una lista de temas de cosas con las que puedes ayudarme?"
+        },
+        {
+          "text": "¿Podría darme una lista de temas con las que puede ayudarme?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas están capaz de ayudarme?"
+        },
+        {
+          "text": "que puedes responder?"
+        },
+        {
+          "text": "Tengo varios problemas y necesito saber con qué me puede ayudar."
+        },
+        {
+          "text": "Qué tipo de cosas puede hacer por mí?"
+        },
+        {
+          "text": "Lista de temas disponibles"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "prevencion",
+      "examples": [
+        {
+          "text": "Prevención_de_fraude"
+        },
+        {
+          "text": "¿Cómo puedo evitar actividades fraudulentas?"
+        },
+        {
+          "text": "¿Qué acciones son recomendadas para prevenir los fraudes, estafas y robos?"
+        },
+        {
+          "text": "¿Cómo prevengo estafas?"
+        },
+        {
+          "text": "¿Qué debo hacer para evitar un robo o una estafa?"
+        },
+        {
+          "text": "¿Cómo evito estafas?"
+        },
+        {
+          "text": "¿Como evito robos?"
+        },
+        {
+          "text": "¿Cómo puedo prevenir las estafas, fraudes y robos durante la pandemia del Covid-19?"
+        },
+        {
+          "text": "¿Cómo puedo reconocer una estafa o un fraude que amenaza los fondos en mis cuentas de ahorro?"
+        }
+      ],
+      "description": "Recomendaciones de como evitar ser víctima de actividades fraudulentas relacionadas al sector bancario"
+    },
+    {
+      "intent": "horarios",
+      "examples": [
+        {
+          "text": "¿A que hora atienden?"
+        },
+        {
+          "text": "Horarios_atencion"
+        },
+        {
+          "text": "¿A que hora cierran?"
+        },
+        {
+          "text": "¿Cual es el horario de atención?"
+        },
+        {
+          "text": "¿Hasta que hora puedo ir al banco?"
+        },
+        {
+          "text": "¿A que hora cierra el banco?"
+        },
+        {
+          "text": "¿A que hora abren?"
+        },
+        {
+          "text": "¿A que hora abre el banco?"
+        },
+        {
+          "text": "¿A qué hora puedo ir al banco?"
+        }
+      ],
+      "description": "Da información acerca del horario de atención de los bancos"
+    },
+    {
+      "intent": "tarifas_cajeros",
+      "examples": [
+        {
+          "text": "¿Variarán las tarifas de los cajeros automáticos?"
+        },
+        {
+          "text": "Tarifas_cajeros"
+        },
+        {
+          "text": "¿Cambiarán las tarifas de cajeros automáticos?"
+        },
+        {
+          "text": "Tarifas_de_cajeros"
+        },
+        {
+          "text": "¿Aumentarán las tarifad de los cajeros automáticos?"
+        },
+        {
+          "text": "¿Subirán las tarifas de los cajeros automáticos?"
+        },
+        {
+          "text": "¿Se mantendrán las tarifas de los cajeros automáticos?"
+        }
+      ],
+      "description": "Información sobre un cambio de tarifas del uso de cajeros automáticos"
+    },
+    {
+      "intent": "servicios_bancarios",
+      "examples": [
+        {
+          "text": "¿Con quién me puedo contactar para que me proporcione información acerca de servicios bancarios que se me pueden ofrecer?"
+        },
+        {
+          "text": "Servicios_bancarios"
+        },
+        {
+          "text": "¿A quién puedo acudir para informarme acerca de los servicios que me puede proveer el banco?"
+        },
+        {
+          "text": "¿Cómo puedo informarme de los servicios bancarios que se me pueden ofrecer?"
+        },
+        {
+          "text": "¿Qué servicios me puede brindar el banco?"
+        },
+        {
+          "text": "¿Qué servicios me puede proveer el banco?"
+        }
+      ],
+      "description": "Guía al usuario a contactarse con quien le puede informar acerca de los servicios que brinda el banco"
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Agradecimiento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De nada, si tienes otra inquietud no dudes en preguntarme."
+              },
+              {
+                "text": "De nada, estoy feliz de haber sido útil."
+              },
+              {
+                "text": "¡No hay de que! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1588795402912",
+      "conditions": "#agradecimiento",
+      "dialog_node": "node_2_1588795653729",
+      "previous_sibling": "node_3_1588795448013"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hasta luego, espero poder haberte ayudado."
+              },
+              {
+                "text": "Adiós, si tienes otra pregunta contáctame en cualquier momento."
+              },
+              {
+                "text": "Bye bye"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1588795402912",
+      "conditions": "#despedida",
+      "dialog_node": "node_2_1588795746465",
+      "previous_sibling": "node_2_1588795653729"
+    },
+    {
+      "type": "standard",
+      "title": "Saludos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola ¿Cómo te puedo ayudar?"
+              },
+              {
+                "text": "Buen día ¿En qué te puedo ayudar?"
+              },
+              {
+                "text": "¿Qué tal? ¿Que puedo hacer por ti?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1588795402912",
+      "conditions": "#saludos",
+      "dialog_node": "node_3_1588795448013"
+    },
+    {
+      "type": "standard",
+      "title": "Servicios bancarios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para tener información completa acerca de los servicios que puede ofrecerle su banco, proceda a contactarse con un operador del mismo o acceda a la pagina web <a href=\"https://bancoperu.us-south.cf.appdomain.cloud/productos\" target=\"_blank\">Ingresa aquí</a>.\t\t\t\t\t\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#servicios_bancarios",
+      "dialog_node": "node_7_1588796789479",
+      "previous_sibling": "node_8_1589246057687"
+    },
+    {
+      "type": "standard",
+      "title": "Transacciones sin billetes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Algunos países han decidido desinfectar sus monedas y billetes para disminuir el avance del Covid-19 considerando estas un medio de contagio. Se recomienda a los usuarios del banco optar por realizar transacciones que no involucren el contacto físico con dinero o con otras personas.\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#transacciones_sin_billetes",
+      "dialog_node": "node_3_1588796620098",
+      "previous_sibling": "node_7_1588796051717"
+    },
+    {
+      "type": "standard",
+      "title": "Acceso a servicios online",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contáctate con un operador del banco del cual eres cliente para informar que tienes problemas con acceder a los servicios de la institución y pide ayuda para solucionar el problema.\t\t\t\t\t\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#acceso_online",
+      "dialog_node": "node_9_1588797464789",
+      "previous_sibling": "node_2_1588797245389"
+    },
+    {
+      "type": "standard",
+      "title": "Horarios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El horario de atención presencial es de 10:00 am a 2:00 pm de lunes a viernes, mientras que la línea telefónica estará habilitada para atender consultas de 9:00 am a 4:30 pm de lunes a sábados y los domingos de 9:00 am a 2:00 pm.\t\t\t\t\t\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#horarios",
+      "dialog_node": "node_8_1589246057687",
+      "previous_sibling": "node_3_1588796620098"
+    },
+    {
+      "type": "standard",
+      "title": "Penalidad de retiro de dinero de un deposito a plazo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se recomienda no retirar el dinero de los depósitos de plazo fijo, puesto a las penalidades a aplicarse no han cambiado por la pandemia. Deberías contactarte con tu banco para confirmar las políticas de penalidad con respecto a los depósitos de plazo fijo.\t\t\t\t\t\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#penalidad_deposito",
+      "dialog_node": "node_9_1588797131358",
+      "previous_sibling": "node_7_1588797038091"
+    },
+    {
+      "type": "standard",
+      "title": "Tarifas de cajeros",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bancos como el BBVA suspenderá temporalmente el cobro de comisiones por el retiro de efectivo de cajeros automáticos para todos lo usuarios a nivel nacional. Se recomienda contactar con un operador de tu banco para obtener información con respecto a la política de tarifas de retiro de cajeros automáticos.\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tarifas_cajeros",
+      "dialog_node": "node_7_1588797038091",
+      "previous_sibling": "node_5_1588796878742"
+    },
+    {
+      "type": "standard",
+      "title": "Prevención",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La mejor manera de prevenir las distintas modalidades de fraude es estar informado acerca de ellas, por lo que el banco te brinda información sobre las principales modalidades como el phishing, smishing, vishing, entre otras. Para conocer más sobre ellos y obtener consejos de cómo usar de forma segura los canales del banco ingresa al siguiente <a href=\"https://bancoperu.us-south.cf.appdomain.cloud/seguridad\" target=\"_blank\">link</a>.\t\t\t\t\t\t\t\t\t\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#prevencion",
+      "dialog_node": "node_6_1588797734981",
+      "previous_sibling": "node_9_1588797464789"
+    },
+    {
+      "type": "standard",
+      "title": "Depósito de sueldos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contáctate con tu empleador y asegúrate de que las políticas de depósitos de sueldos de la empresa en la que trabajas están siendo llevadas a cabo con normalidad y pregunta cual será la fecha en la cual la empresa depositará los sueldos. Si existe alguna irregularidad, procura verificar si el dinero fue transferido a tu cuenta de manera correcta.\t\t\t\t\t\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#deposito_sueldo",
+      "dialog_node": "node_5_1588798187280",
+      "previous_sibling": "node_5_1588798050859"
+    },
+    {
+      "type": "standard",
+      "title": "Efectivo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El banco central de reserva continuará cumpliendo las necesidades de la población para proveer los recursos que esta necesita para que se pueda continuar realizando transacciones con normalidad.\t\t\t\t\t\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#efectivo",
+      "dialog_node": "node_4_1588796490866",
+      "previous_sibling": "node_1_1588797000123"
+    },
+    {
+      "type": "folder",
+      "title": "Chit Chat",
+      "dialog_node": "node_9_1588795402912",
+      "previous_sibling": "node_5_1589246164088"
+    },
+    {
+      "type": "standard",
+      "title": "Transferencia interbancaria",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contacta el banco al cual deseas transferir el dinero y proporcionales tu número de cuenta bancaria y la cuenta bancaria a la cual quieres transferir el monto. Pide que se te notifique cuando el destinatario haya recibido el monto transferido.\t\t\t\t\t\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#transferencia_interbancaria",
+      "dialog_node": "node_7_1588797940289",
+      "previous_sibling": "node_6_1588797734981"
+    },
+    {
+      "type": "standard",
+      "title": "Tansaccion bancaria",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cada banco tiene en la actualidad un sistema online propio, para tener información específica acceda a la plataforma de la entidad de la cual es usuario. El siguiente es un proceso estandarizado que podría ayudarlo a realizar una transacción online:\n1. Ingresar a la plataforma online del banco del que es usuario.\n2. Seleccionar la opción de transferencias.\n3. Escoger el destinatario.\n4. Confirmar que los datos del destinatario sean correctos.\n5. Ingresar el monto a pagar.\t\t\t\t\t\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#transaccion_bancaria",
+      "dialog_node": "node_2_1588797245389",
+      "previous_sibling": "node_9_1588797131358"
+    },
+    {
+      "type": "standard",
+      "title": "Retrasos de pago de prestamos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ante la situación actual, la Superintendencia de Banca, Seguros y AFP(SBS) autorizó a las entidades del sistema financiero efectuar modificaciones a los contratos de créditos para que sus deudores puedan cumplir con sus pagos. Por lo que el banco reprogramará los créditos sin consecuencias adversas para el prestatario.\t\t\t\t\t\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#retraso_de_prestamo",
+      "dialog_node": "node_5_1588798050859",
+      "previous_sibling": "node_7_1588797940289"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para obtener más información accede a https://www.ibm.com/planetwide/\n"
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_9_1588795402912",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Cobranza de cheques",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Revisa las políticas de cobranza de cheques del banco en el cual planeas cobrarlos.\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cobranza_cheques",
+      "dialog_node": "node_5_1588796878742",
+      "previous_sibling": "node_7_1588796789479"
+    },
+    {
+      "type": "standard",
+      "title": "Preguntas Frecuentes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ante la actual situación que viene atravesando el país como consecuencia del COVID-19, han surgido algunas interrogantes en nuestros clientes, los principales temas son los siguientes:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Reservas de efectivo",
+                "value": {
+                  "input": {
+                    "text": "Reservas_de_efectivo"
+                  }
+                }
+              },
+              {
+                "label": "Cobranza de cheques",
+                "value": {
+                  "input": {
+                    "text": "Cobranza_de_cheques"
+                  }
+                }
+              },
+              {
+                "label": "Préstamos",
+                "value": {
+                  "input": {
+                    "text": "Prestamos"
+                  }
+                }
+              },
+              {
+                "label": "Depósito de sueldo",
+                "value": {
+                  "input": {
+                    "text": "Depósito_de _sueldo"
+                  }
+                }
+              },
+              {
+                "label": "Prevención de fraude",
+                "value": {
+                  "input": {
+                    "text": "Prevención_de_fraude"
+                  }
+                }
+              },
+              {
+                "label": "Servicios bancarios",
+                "value": {
+                  "input": {
+                    "text": "Servicios_bancarios"
+                  }
+                }
+              },
+              {
+                "label": "Transacciones bancarias",
+                "value": {
+                  "input": {
+                    "text": "Transacciones_bancarias"
+                  }
+                }
+              },
+              {
+                "label": "Tarifas cajeros",
+                "value": {
+                  "input": {
+                    "text": "Tarifas_cajeros"
+                  }
+                }
+              },
+              {
+                "label": "Fondo de ahorros",
+                "value": {
+                  "input": {
+                    "text": "Fondo_de_ahorros"
+                  }
+                }
+              },
+              {
+                "label": "Transferencia interbancaria",
+                "value": {
+                  "input": {
+                    "text": "Transferencia_interbancaria"
+                  }
+                }
+              },
+              {
+                "label": "Ubicación de cajeros",
+                "value": {
+                  "input": {
+                    "text": "Ubicación_cajeros"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#capacidades_generales",
+      "dialog_node": "node_1_1588797000123",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "UbicacionCajeros",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estos son los cajeros más cercanos a ti:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.ibb.co/CHXcfTk/mapa.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Temas sugeridos para ti:",
+            "options": [
+              {
+                "label": "Horarios de atención",
+                "value": {
+                  "input": {
+                    "text": "Horarios_atencion"
+                  }
+                }
+              },
+              {
+                "label": "Tarifas de cajeros",
+                "value": {
+                  "input": {
+                    "text": "Tarifas_de_cajeros"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#ubicacion_cajeros",
+      "dialog_node": "node_1_1588794463867",
+      "previous_sibling": "node_5_1588798187280"
+    },
+    {
+      "type": "standard",
+      "title": "Mas información",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para obtener más información accede a https://www.ibm.com/planetwide/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#mas_info",
+      "dialog_node": "node_5_1589246164088",
+      "previous_sibling": "node_1_1588794463867"
+    },
+    {
+      "type": "standard",
+      "title": "Seguro de deposito",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los fondos de ahorro y CTS en las cuentas de los usuarios están protegidos por el Fondo de Seguros de Depositos hasta un determinado monto que hasta Mayo del 2020 asciende a S/.100,123. Esto aplica para los usuarios que son clientes de una entidad bancaria que es supervisada por la Superintendencia de Banca y Seguros.  \t\t\t\t\t\t\t\t\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#seguro_de_depositos",
+      "dialog_node": "node_7_1588796051717",
+      "previous_sibling": "node_4_1588796490866"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola soy el asistente virtual de Banco Perú! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Puedes preguntarme sobre cualquiera de estos temas: servicios bancarios, transacciones online, tarifas de cajeros, cobranza de cheques y más."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Si deseas saber todo lo que te puedo ayudar, haz clic en el siguiente botón:",
+            "options": [
+              {
+                "label": "Temas disponibles",
+                "value": {
+                  "input": {
+                    "text": "Capacidades_Generales"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "Entonces, ¿Cómo puedo ayudarte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenido"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Chatbot Banking_v2",
+  "language": "es",
+  "description": "Un chatbot que ayuda a responder consultas sobre servicios de banco"
+}
