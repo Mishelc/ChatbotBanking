@@ -48,3 +48,11 @@ To find the `Skill ID` for Watson Assistant:
 * Go back to the `Skills` tab.
 * Click on the three dots in the upper right-hand corner of a card and select `View API Details`.
 * Copy the `Skill ID` GUID. Use this value when setting up your run-time environment.
+### 5. Deploy the application
+
+Run npm install then npm start. Navigate to http://localhost:3000/. 
+
+### 6. Use the web app
+
+The web app presents a customer service chatbot. Interact with the chatbot by pressing the buttons when prompted or use the `Escriba algo...` box.
+![demo](doc/images/demo.gif)
